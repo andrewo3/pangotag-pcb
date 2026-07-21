@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "Pangotag_PCB_Library") (type "KiCad") (uri "${KIPRJMOD}/Pangotag_PCB_Library.kicad_sym") (options "") (descr ""))
+)
