@@ -1,0 +1,303 @@
+(footprint "Hirose_DF57H-2P-1.2V_1x02_P1.2mm_Socket"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Low Profile Swing-Lock Wire-to-Board Connector for Power (source: https://www.hirose.com/en/product/document?clcode=&productname=&series=DF57&documenttype=Catalog&lang=en&documentid=en_DF57_CAT)")
+	(tags "conn hirose socket low-profile power")
+	(property "Reference" "REF**"
+		(at 0 -3.52 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "41505f90-59e5-4b14-9acb-cf09459774db")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Conn_01x02"
+		(at 0 3.49 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3578643c-2fa4-44e7-9728-e20eed8ac05b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5078736f-923a-408f-a7cb-124576606de0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "51ca2fe6-af77-439e-b0af-bcb55c313704")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "KiLib_Generator" "connector/generator"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "94c32aea-9b9e-48da-b1da-842e3e492e5e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "Connector*:*_1x??_*")
+	(sheetname "//Power/")
+	(sheetfile "Power.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.16 -2.285)
+		(end -1.16 -2.285)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c0b63bb8-141b-46e7-a695-4e87cc53afd3")
+	)
+	(fp_line
+		(start -2.16 1.2275)
+		(end -2.16 -2.285)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "14a90651-fcf8-4b66-9fce-4edb3759f33e")
+	)
+	(fp_line
+		(start -0.816506 -3)
+		(end -0.6 -2.625)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f3499e85-c8aa-4124-9448-0aa906861adf")
+	)
+	(fp_line
+		(start -0.6 -2.625)
+		(end -0.383494 -3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "96b50729-7815-419a-bfe9-7e07259e4040")
+	)
+	(fp_line
+		(start -0.383494 -3)
+		(end -0.816506 -3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9fd4a6b3-43e4-4cd9-95d2-dd4f6c2d12ff")
+	)
+	(fp_line
+		(start -0.04 -2.285)
+		(end 0.04 -2.285)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ac5ac66e-bec0-4db1-9845-04294919971b")
+	)
+	(fp_line
+		(start 1.14 2.285)
+		(end -1.14 2.285)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cd349c51-0b95-42af-8768-eca479feb215")
+	)
+	(fp_line
+		(start 1.16 -2.285)
+		(end 2.16 -2.285)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "20eff1c4-e617-4df8-b970-31e09c661910")
+	)
+	(fp_line
+		(start 2.16 -2.285)
+		(end 2.16 1.2275)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ac8f6da0-4262-4b25-a700-0fb77647edb3")
+	)
+	(fp_rect
+		(start -2.6 -2.82)
+		(end 2.6 2.79)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "aec7a21e-ae8c-4b93-87b0-64cbf3c6c14c")
+	)
+	(fp_line
+		(start -2.05 -2.175)
+		(end 2.05 -2.175)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c1971b7c-0867-4ddf-bb22-7ceccae9171c")
+	)
+	(fp_line
+		(start -2.05 2.175)
+		(end -2.05 -2.175)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "24c87fd7-9a87-45e9-8a8b-9e881cac233d")
+	)
+	(fp_line
+		(start -1.1 -2.175)
+		(end -0.6 -1.375)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a28b8abf-5f2e-43db-a0c7-eea286d01196")
+	)
+	(fp_line
+		(start -0.6 -1.375)
+		(end -0.1 -2.175)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "492414c1-702b-438a-98a3-62d579fa56a0")
+	)
+	(fp_line
+		(start 2.05 -2.175)
+		(end 2.05 2.175)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "33e606a3-ee6a-4753-ab6d-898b0f5b57a1")
+	)
+	(fp_line
+		(start 2.05 2.175)
+		(end -2.05 2.175)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "09c4557e-f3fe-4df2-9db4-6798fe1d4470")
+	)
+	(pad "" smd roundrect
+		(at -1.75 1.8875)
+		(size 0.7 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "7d164950-697b-4495-b85b-1431c0b45158")
+	)
+	(pad "" smd roundrect
+		(at 1.75 1.8875)
+		(size 0.7 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "9eb21f4a-dcb8-4300-af0a-ead276e0847c")
+	)
+	(pad "1" smd roundrect
+		(at -0.6 -1.8875)
+		(size 0.6 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "916c323a-3d07-486b-9a56-b7064805e89c")
+	)
+	(pad "2" smd roundrect
+		(at 0.6 -1.8875)
+		(size 0.6 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "8b5a3197-8f35-473e-abfa-94b824686b37")
+	)
+	(zone
+		(layer "F.Cu")
+		(uuid "8d452925-535d-4920-8372-bfcf1bfb25f7")
+		(name "keepout")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy -1.25 -1.4625) (xy 1.25 -1.4625) (xy 1.25 -0.2625) (xy -1.25 -0.2625)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "/Users/andrewogundimu/Documents/KiCad Symbols/DF57H-2P-1.2V(21)_CL0666-0104-7-21_3DDrawing_STEP_0001218583S/DF57H-2P-1.2V.stp"
+		(offset
+			(xyz 80.35 19.8 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

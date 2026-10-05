@@ -1,0 +1,160 @@
+(footprint "TestPoint_Pad_1.5x1.5mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "SMD rectangular pad as test Point, square 1.5mm side length")
+	(tags "test point SMD pad rectangle square")
+	(property "Reference" "REF**"
+		(at 0 -1.648 0)
+		(layer "F.SilkS")
+		(uuid "89e1fffb-bf86-47cb-b2da-99f93b66ba6f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MountingHole_Pad"
+		(at 0 1.75 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dfe7eadf-3c99-4659-9629-8616d2c44ce2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "398ec937-1e9e-44e5-bb56-872502d3310c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Mounting Hole with connection"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5bbdab08-3d13-460d-adc6-5bbbd5230d1d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "MountingHole*Pad*")
+	(sheetname "/ST-Link Conn/")
+	(sheetfile "st-link_conn.kicad_sch")
+	(attr exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.95 -0.95)
+		(end 0.95 -0.95)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b4f18fd0-2450-4449-bfc1-01f70215fbef")
+	)
+	(fp_line
+		(start -0.95 0.95)
+		(end -0.95 -0.95)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "957055c2-3c9d-4ef1-80fa-42f1faa78111")
+	)
+	(fp_line
+		(start 0.95 -0.95)
+		(end 0.95 0.95)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f76dc6f8-b3ec-4b5e-8e8d-dbead2317940")
+	)
+	(fp_line
+		(start 0.95 0.95)
+		(end -0.95 0.95)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "353f2912-a4c2-4f34-9f5e-9a4246ba1a2f")
+	)
+	(fp_line
+		(start -1.25 -1.25)
+		(end -1.25 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b2644629-4e49-4fe7-b8a3-a55ed38b177b")
+	)
+	(fp_line
+		(start -1.25 -1.25)
+		(end 1.25 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "925145d8-107f-4998-bb90-8f78ead310e7")
+	)
+	(fp_line
+		(start 1.25 1.25)
+		(end -1.25 1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "efdc4402-7beb-452c-8b9d-939a382a0fbe")
+	)
+	(fp_line
+		(start 1.25 1.25)
+		(end 1.25 -1.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2ab2ebfa-bf34-4187-b88d-9604c288079b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -1.65 0)
+		(layer "F.Fab")
+		(uuid "6e0f3a85-e9ce-4687-84f7-3d1cabce5a40")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 0)
+		(size 1.5 1.5)
+		(layers "F.Cu" "F.Mask")
+		(uuid "17a8269b-2e23-461c-8c7e-cadc12f5f6ea")
+	)
+	(embedded_fonts no)
+)

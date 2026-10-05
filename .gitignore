@@ -1,0 +1,18 @@
+# KiCad local history, backups, lock files and reports
+.history/
+*-backups/
+_autosave-*
+~*.lck
+fp-info-cache
+*.rpt
+
+# Large 3D exports; regenerate them from the board
+*.step
+*.stl
+PCB_BLENDER_OUT/
+
+# JLCPCB plugin's local parts database
+jlcpcb/project.db
+
+# OS files
+.DS_Store

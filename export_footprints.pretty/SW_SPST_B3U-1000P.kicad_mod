@@ -1,0 +1,237 @@
+(footprint "SW_SPST_B3U-1000P"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Ultra-small-sized Tactile Switch with High Contact Reliability, Top-actuated Model, without Ground Terminal, without Boss")
+	(tags "Tactile Switch")
+	(property "Reference" "REF**"
+		(at 0 -2.5 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "1206b5e0-db03-4fcf-9033-cd1fce23a0f2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW_Push"
+		(at 0 2.5 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ce513293-ce40-43ac-9a1a-e22fdd3145b5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ceedec43-9fcd-42cc-a87f-228da4086e36")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Push button switch, generic, two pins"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d9ea7b53-f75e-4a0b-898c-68f310a479a0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/ST-Link Conn/")
+	(sheetfile "st-link_conn.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.65 -1.4)
+		(end 1.65 -1.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7140af0a-afb7-49ad-bfdd-368e418582f0")
+	)
+	(fp_line
+		(start -1.65 -1.1)
+		(end -1.65 -1.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "02c1f171-caa3-49c7-8bad-9b875b1e665f")
+	)
+	(fp_line
+		(start -1.65 1.1)
+		(end -1.65 1.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c8a37bd0-fc00-46af-8c94-87315677055c")
+	)
+	(fp_line
+		(start -1.65 1.4)
+		(end 1.65 1.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e3200dbd-a64a-48f7-a3a5-be7de36601f1")
+	)
+	(fp_line
+		(start 1.65 -1.4)
+		(end 1.65 -1.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d10e702f-ea62-4f94-81c2-dd5ba6d264d7")
+	)
+	(fp_line
+		(start 1.65 1.4)
+		(end 1.65 1.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f90ddf75-38ac-4c58-8720-a9d2b3d1427c")
+	)
+	(fp_line
+		(start -2.4 -1.65)
+		(end -2.4 1.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5d67eabf-03fd-463c-ae67-6dde2224556a")
+	)
+	(fp_line
+		(start -2.4 1.65)
+		(end 2.4 1.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "be493074-a248-426b-99cd-45e51535d666")
+	)
+	(fp_line
+		(start 2.4 -1.65)
+		(end -2.4 -1.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6d9de309-169c-4ce5-8f60-e771e0f311d1")
+	)
+	(fp_line
+		(start 2.4 1.65)
+		(end 2.4 -1.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c3e03e90-1360-4cac-85cf-db3a151c8a5e")
+	)
+	(fp_line
+		(start -1.5 -1.25)
+		(end 1.5 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0b11f317-a23e-4a2b-8347-1c6183977dd3")
+	)
+	(fp_line
+		(start -1.5 1.25)
+		(end -1.5 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d9855a2a-37cb-4cc0-ae85-5eea1d653622")
+	)
+	(fp_line
+		(start 1.5 -1.25)
+		(end 1.5 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e152ce36-1da7-4c0f-81fd-31408b7b1553")
+	)
+	(fp_line
+		(start 1.5 1.25)
+		(end -1.5 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d5d67d1e-20c0-49b1-8f1f-a48ce285c50c")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.75 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "65b2037e-6388-40dc-8407-995dd7c4b680")
+	)
+	(pad "1" smd rect
+		(at -1.7 0)
+		(size 0.9 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "145e3052-4fb1-4391-bf10-509aeefb635f")
+	)
+	(pad "2" smd rect
+		(at 1.7 0)
+		(size 0.9 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "bf939deb-f638-4f63-aa00-3a2ac5683236")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_B3U-1000P.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,319 @@
+(footprint "TLV3691IDPFR"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "DPF0006A")
+	(tags "Integrated Circuit")
+	(property "Reference" "REF**"
+		(at -3.525 -4.65 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "cb66654b-4e70-40c3-b4d0-3a26375bf5da")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "TLV3691IDPFR"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c3a976e9-f608-4e18-a8ed-962f89cb00fe")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "http://www.ti.com/lit/gpn/tlv3691"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1ad9415f-59f0-49ff-8d3b-51325be3d8a3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Lowest Power, 0.9V to 6.5V, Small Size Comparator"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b1defc7f-a8f6-428d-af24-d833fef53c11")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Height" "0.4"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4881fc7f-cac7-4778-b93e-7125a8cc8534")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Texas Instruments"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cf5eb75a-d499-48af-a2c8-3690b02bf1df")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "TLV3691IDPFR"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ad44c7da-2cc5-421f-8d08-4aa2d643ce20")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "595-TLV3691IDPFR"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "62d9a079-cf92-448f-b9ae-b4fc739356cd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV3691IDPFR?qs=wrT8kFYR778CAMrXcSpUjg%3D%3D"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cf1ee1ef-a175-4e28-b5c8-27f69d363012")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Part Number" "TLV3691IDPFR"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b9dcd020-57a1-4c94-bdae-a33942366990")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tlv3691idpfr/texas-instruments.html?utm_currency=USD&region=nac"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b09230b3-c04e-4e0b-af15-04aea92f7cad")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "//Communication/")
+	(sheetfile "Communication.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.1 -0.4)
+		(end -1.1 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4d47a962-5944-48df-bd8f-e40060fb3051")
+	)
+	(fp_line
+		(start -1.2 -0.4)
+		(end -1.2 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c4baea57-8ac4-46ad-bb33-437c63be9c39")
+	)
+	(fp_arc
+		(start -1.1 -0.4)
+		(mid -1.15 -0.35)
+		(end -1.2 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "79b8e363-b370-464f-b350-1b8c9380f874")
+	)
+	(fp_arc
+		(start -1.2 -0.4)
+		(mid -1.15 -0.45)
+		(end -1.1 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a6c6b92c-99b9-4343-a768-69952567cfcc")
+	)
+	(fp_line
+		(start 1.7 1.5)
+		(end -1.7 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0da82199-269d-471c-a1b9-3f093ded7875")
+	)
+	(fp_line
+		(start 1.7 -1.5)
+		(end 1.7 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3591990f-61f3-48c9-93fc-1a78958fc023")
+	)
+	(fp_line
+		(start -1.7 1.5)
+		(end -1.7 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7f374cb0-ffe4-475a-a095-0e336748bdde")
+	)
+	(fp_line
+		(start -1.7 -1.5)
+		(end 1.7 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "16c5b8a3-ddf9-4cf7-95fc-72973597a491")
+	)
+	(fp_line
+		(start 0.5 0.5)
+		(end -0.5 0.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fcac52fb-1a17-463a-9495-42a7c7819039")
+	)
+	(fp_line
+		(start 0.5 -0.5)
+		(end 0.5 0.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6a8bfccb-bffa-4a3b-a6dc-0cec8447fa44")
+	)
+	(fp_line
+		(start -0.5 0.5)
+		(end -0.5 -0.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "eabf5a0b-dbe3-46ec-9025-ffc8c8275585")
+	)
+	(fp_line
+		(start -0.5 -0.5)
+		(end 0.5 -0.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d4191df5-ee15-4257-85fc-ed96bb6d21e1")
+	)
+	(pad "1" smd rect
+		(at -0.525 -0.35 270)
+		(size 0.17 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ccb2f8bc-67e2-4a96-b0e1-d92d8c25c392")
+	)
+	(pad "2" smd rect
+		(at -0.525 0 270)
+		(size 0.17 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "cc5dcaac-db4f-4b38-b5ec-16160a48dd31")
+	)
+	(pad "3" smd rect
+		(at -0.525 0.35 270)
+		(size 0.17 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "91de694a-7c7a-4141-b691-721c7a5d03cb")
+	)
+	(pad "4" smd rect
+		(at 0.525 0.35 270)
+		(size 0.17 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3b64f50e-6583-48e9-b8cb-6c03ec566259")
+	)
+	(pad "5" smd rect
+		(at 0.525 0 270)
+		(size 0.17 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "45497655-dd69-41ef-8e75-708cae15e832")
+	)
+	(pad "6" smd rect
+		(at 0.525 -0.35 270)
+		(size 0.17 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8b549461-fc55-45c0-9c19-6ee6e8f88d9d")
+	)
+	(embedded_fonts no)
+	(model "/Users/andrewogundimu/Documents/KiCad Symbols/LIB_TLV3691IDPFR/TLV3691IDPFR/3D/TLV3691IDPFR.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

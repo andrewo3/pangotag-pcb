@@ -1,0 +1,348 @@
+(footprint "BGA6C40P2X3_102X150X52"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "6-WLCSP")
+	(tags "Undefined or Miscellaneous")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c84d38e6-0fd8-4b8a-b524-c46e1d98193d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "AS6221T-AWLT"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "3c78395b-e6aa-4dcf-a25b-2161693e68b2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://ams.com/documents/20143/7478544/AS6221T_DS001032_1-00.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a349469a-7553-4e7c-88a3-912336c480b7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Board Mount Temperature Sensors AS6221T Digitial Temperature Sensor"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d780c95f-403e-4d60-b995-57355987ae1e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Height" "0.525"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "749549a5-314f-48da-a002-fc66e31d6edc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "ams OSRAM"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c927e381-96b6-45c6-bafa-28a45f6b70b8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "AS6221T-AWLT"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f83c7e21-0901-4f21-ad00-a18e3c440c83")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "985-AS6221T-AWLT"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b38e940c-07e6-4dca-974c-5d07beef348c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ams-OSRAM/AS6221T-AWLT?qs=tlsG%2FOw5FFgzGQhE0z5OCw%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "476565e9-9b63-451f-b7d4-6c0dbf638bb8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Part Number" "AS6221T-AWLT"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b6c78a47-4a4c-4862-984a-1cf03a0fbcbb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Price/Stock" "https://www.arrow.com/en/products/as6221t-awlt/ams-osram?utm_currency=USD&region=europe"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "98ca7135-2e92-4ce7-93bc-1b7b43116d0c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "//Communication/")
+	(sheetfile "Communication.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.65 -0.4)
+		(end -0.2 -0.85)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dabcac8e-20cd-4199-a6c7-4c7fafe9f1fb")
+	)
+	(fp_line
+		(start -0.65 0.85)
+		(end -0.65 -0.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a71448ae-d519-42a3-acee-d8fe3b5f7118")
+	)
+	(fp_line
+		(start -0.2 -0.85)
+		(end 0.65 -0.85)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "25574249-a3d6-4d58-b1d5-e457bffc3702")
+	)
+	(fp_line
+		(start 0.65 -0.85)
+		(end 0.65 0.85)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e9ef83a6-7d92-4dd3-bc79-264d11e3f044")
+	)
+	(fp_line
+		(start 0.65 0.85)
+		(end -0.65 0.85)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f08cf443-d6aa-4ce4-ba1a-0531d22d9f75")
+	)
+	(fp_circle
+		(center -0.65 -0.85)
+		(end -0.65 -0.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "a1982046-e287-42ef-8bab-b8590ee105ab")
+	)
+	(fp_line
+		(start -1.522 -1.758)
+		(end 1.523 -1.758)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6ee33f55-97a1-4a4c-bd40-4b75fa7b7144")
+	)
+	(fp_line
+		(start -1.522 1.757)
+		(end -1.522 -1.758)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c25af98f-a9ad-48ad-a416-3020ee3b0081")
+	)
+	(fp_line
+		(start 1.523 -1.758)
+		(end 1.523 1.757)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2911c321-fd8e-4323-80f4-0299986c88b7")
+	)
+	(fp_line
+		(start 1.523 1.757)
+		(end -1.522 1.757)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "72bb0d27-a487-4aa5-a17a-311a5d45f408")
+	)
+	(fp_line
+		(start -0.51 -0.748)
+		(end 0.51 -0.748)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1aa36b65-4643-4fdc-925e-c95266df1abc")
+	)
+	(fp_line
+		(start -0.51 -0.369)
+		(end -0.131 -0.748)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e5da38e0-6d16-42c7-97c5-e17b73038fc7")
+	)
+	(fp_line
+		(start -0.51 0.747)
+		(end -0.51 -0.748)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c217390f-f974-4e13-82d6-cb6dd0b3e390")
+	)
+	(fp_line
+		(start 0.51 -0.748)
+		(end 0.51 0.747)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8b8ddb8e-d36f-49aa-925c-c2ed5c3fd31d")
+	)
+	(fp_line
+		(start 0.51 0.747)
+		(end -0.51 0.747)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9c17365b-6f65-4c1f-be98-6173312e702a")
+	)
+	(pad "A1" smd circle
+		(at -0.2 -0.4 90)
+		(size 0.2 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8f1ec92b-7eef-4897-8d8b-df13fc86951a")
+	)
+	(pad "A2" smd circle
+		(at 0.2 -0.4 90)
+		(size 0.2 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0923bb66-ea38-4bb1-b777-1c09873284b5")
+	)
+	(pad "B1" smd circle
+		(at -0.2 0 90)
+		(size 0.2 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4b3aaa93-0c63-4c18-a98e-fd5f2c79e07c")
+	)
+	(pad "B2" smd circle
+		(at 0.2 0 90)
+		(size 0.2 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b6d0e964-6720-45b3-a48e-2a0761bf18eb")
+	)
+	(pad "C1" smd circle
+		(at -0.2 0.4 90)
+		(size 0.2 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ec2d40bb-354b-4cdf-a966-0475d5c39cd6")
+	)
+	(pad "C2" smd circle
+		(at 0.2 0.4 90)
+		(size 0.2 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "25439153-ee0d-4a84-ab7c-a8ed4cd79409")
+	)
+	(embedded_fonts no)
+	(model "/Users/andrewogundimu/Documents/KiCad Symbols/LIB_AS6221T-AWLT/AS6221T-AWLT/3D/AS6221T-AWLT.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

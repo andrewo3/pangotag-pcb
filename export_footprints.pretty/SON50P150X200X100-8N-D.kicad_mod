@@ -1,0 +1,284 @@
+(footprint "SON50P150X200X100-8N-D"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "DLC0008B")
+	(tags "Integrated Circuit")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "2c8b725f-6c7b-4b6c-8ca6-d53064cf08a5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "TPS62840DLCR"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "9d1bc4b6-2bd7-4cb5-94e3-c9e75caa4818")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.ti.com/lit/gpn/TPS62840"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5f45e42e-94dc-4f5c-8952-a0c7630a2fee")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Switching Voltage Regulators 60-nA IQ, 1.8-V to 6.5-VIN, high-efficiency 750-mA step-down converter 8-VSON-HR -40 to 125"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "21a263b0-1e07-4ae6-878e-d36e7ca45934")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Height" "1"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "37106116-7da1-470f-9ceb-7cfa2608ec5c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "595-TPS62840DLCR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d1be3d72-5cbb-43f3-adb7-d67e0721e3c5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS62840DLCR?qs=%252B6g0mu59x7L1%2Fxo1joT%252Bvg%3D%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "87bbbc43-c395-460b-8af0-9aaad19ad312")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Texas Instruments"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3a961cd9-3408-4bb5-899c-a97ee60e6820")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "TPS62840DLCR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d242cdb5-f7a0-4e30-88d3-8ef2be40bf0e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "//Power/")
+	(sheetfile "Power.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center -1.125 -1.4)
+		(end -1.125 -1.275)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "68ed176d-78f3-4c18-a336-beb66c2d525f")
+	)
+	(fp_line
+		(start -1.375 -1.3)
+		(end 1.375 -1.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c9af9c42-abef-498b-9cdf-b0af9b7aa627")
+	)
+	(fp_line
+		(start -1.375 1.3)
+		(end -1.375 -1.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4b2bd5f2-a349-4a33-9774-130807fc5ccf")
+	)
+	(fp_line
+		(start 1.375 -1.3)
+		(end 1.375 1.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3cea965c-718f-442a-bba1-3a086e48e55b")
+	)
+	(fp_line
+		(start 1.375 1.3)
+		(end -1.375 1.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4800ab6a-4428-497b-90d1-d96908717c1c")
+	)
+	(fp_line
+		(start -0.75 -1)
+		(end 0.75 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c2f694ff-24e3-4f78-9561-24ad60b7c7ec")
+	)
+	(fp_line
+		(start -0.75 -0.625)
+		(end -0.375 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bb2adc60-4e3c-4f5b-bbc8-815e46ac175c")
+	)
+	(fp_line
+		(start -0.75 1)
+		(end -0.75 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "301bdb74-8635-41c3-bc49-04be046a7c48")
+	)
+	(fp_line
+		(start 0.75 -1)
+		(end 0.75 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b4b969f9-5f6e-464f-b927-63b1322d1452")
+	)
+	(fp_line
+		(start 0.75 1)
+		(end -0.75 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "52f4c48a-3cd0-4639-9971-179c9c704364")
+	)
+	(pad "1" smd rect
+		(at -0.7 -0.75 90)
+		(size 0.3 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "393c4430-9709-46a4-8ed0-49e3abe24d27")
+	)
+	(pad "2" smd rect
+		(at -0.7 -0.25 90)
+		(size 0.3 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "39fdb3da-e20f-4d15-898b-521a1bbec722")
+	)
+	(pad "3" smd rect
+		(at -0.7 0.25 90)
+		(size 0.3 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "054b44d1-b43b-4833-9880-de125144a033")
+	)
+	(pad "4" smd rect
+		(at -0.7 0.75 90)
+		(size 0.3 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d910615a-4255-451d-87f6-dd6e58357505")
+	)
+	(pad "5" smd rect
+		(at 0.7 0.75 90)
+		(size 0.3 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "416c7b1b-37ab-45da-9219-d7db1f7f807f")
+	)
+	(pad "6" smd rect
+		(at 0.7 0.25 90)
+		(size 0.3 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "319dcb56-72bb-442f-876f-bbeb63b7f906")
+	)
+	(pad "7" smd rect
+		(at 0.7 -0.25 90)
+		(size 0.3 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "167cc042-50ec-40db-8dfa-4cb15eac195f")
+	)
+	(pad "8" smd rect
+		(at 0.7 -0.75 90)
+		(size 0.3 0.85)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2acd5f6a-b59b-43c6-a05b-438a5d37c6ca")
+	)
+	(embedded_fonts no)
+	(model "/Users/andrewogundimu/Documents/KiCad Symbols/LIB_TPS62840DLCR/TPS62840DLCR/3D/TPS62840DLCR.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

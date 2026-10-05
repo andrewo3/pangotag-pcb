@@ -1,0 +1,17 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C11,4.7u,C_0402_1005Metric,68.74,-45.94,90.0,top
+C19,10u,C_0402_1005Metric,74.575,-44.12,180.0,top
+CN2,POGOPIN_2X04_P2.54_M,PinHeader_2x03_P2.54mm_Vertical,69.19,-41.53,90.0,top
+D+,MountingHole_Pad,TestPoint_Pad_1.5x1.5mm,79.63,-48.14,0.0,top
+D-,MountingHole_Pad,TestPoint_Pad_1.5x1.5mm,79.63,-44.12,0.0,top
+GND,MountingHole_Pad,TestPoint_Pad_1.5x1.5mm,79.55,-56.53,0.0,top
+ID,MountingHole_Pad,TestPoint_Pad_1.5x1.5mm,79.55,-52.16,0.0,top
+J3,USB_B_Mini,USB_Mini-B_Lumberg_2486_01_Horizontal,68.8,-52.45,0.0,top
+J4,UP32-C-F-G-FL-3-P24-TR,USB-TH-TYPE-C_00702-UCAM002-X,57.635,-51.9,-90.0,top
+L4,2.2u,L_0805_2012Metric,76.42,-44.62,90.0,top
+R10,56k,R_0402_1005Metric,61.03,-52.26,90.0,top
+R12,10k,R_0402_1005Metric,63.74,-44.89,180.0,top
+R17,56k,R_0402_1005Metric,54.61,-50.845,-90.0,top
+SW1,SW_Push,SW_SPST_B3U-1000P,75.49,-40.43,0.0,top
+U18,TPS62840YBGR,BGA6N40P3X2_146X96X50N,73.15,-45.78,0.0,top
+VBUS,MountingHole_Pad,TestPoint_Pad_1.5x1.5mm,79.79,-40.18,0.0,top

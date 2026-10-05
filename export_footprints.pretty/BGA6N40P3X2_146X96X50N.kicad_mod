@@ -1,0 +1,898 @@
+(footprint "BGA6N40P3X2_146X96X50N"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.21 1.71 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "37da0778-19ef-4596-8baf-8064634dc9de")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TPS62840YBGR"
+		(at 8.3 -1.1 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ba3d698f-5175-41e1-9bec-a2ba249befa8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8c5670f2-e964-4443-8152-03e4ce3726aa")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "60-nA quiescent current (IQ), 1.8-V to 6.5-VIN, high-efficiency 750-mA step-down converter"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2352e5c4-e329-4cf2-a508-674d927b84d5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "SNAPEDA_PACKAGE_ID" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e1d32936-b4f2-4b45-98f7-3786c123f6fe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "B_NOM" "0.25"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cd36c03d-e31e-41da-9212-a8cf6ebabf5a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "EMAX" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "27fa4f57-1ba2-4f21-a1b6-b331fddc0b4a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "VACANCIES" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4d965e5a-32c4-4e8f-b5d2-27b3ccb9970c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PACKAGE_TYPE" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "99e63990-6650-414b-ab51-f612118e86ca")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PIN_COUNT_D" "3.0"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "019497f6-4607-4020-be50-3276111e4749")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "THERMAL_PAD" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cfda1fa5-f148-465f-a8b9-400266025887")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Check_prices" "https://www.snapeda.com/parts/TPS62840YBGR/Texas+Instruments/view-part/?ref=eda"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "41feb7f4-f36c-478f-9994-43280be350aa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "EMIN" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b5c3ac3d-766d-45bd-b56f-38283cc8b4ee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JEDEC" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ad0965c8-a672-4e30-9155-d9448264ac9b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Price" "None"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "66b7c471-8a98-4f9b-984c-d80aa5ed945f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ENOM" "0.4"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "326e54b1-57c4-4abd-8f1d-c69794351966")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "COURTYARD_EXCESS" "1.0"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6ebf8518-f83a-49ff-b655-a09f3e6a9648")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "D_NOM" "1.468"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f4763477-b40c-4afb-8ab1-3fbb8fcc7b3e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "D_MAX" "1.468"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f0c56397-7ca6-410a-8801-d59c0fab8d89")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "A_MAX" "0.5"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b35137d3-7606-4af2-bede-52ea2cc60f56")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "ALPHA_ROWS" "True"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "63089952-f13f-455a-a7f1-df5a12e56122")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package" "None"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "47edd101-2221-4d68-abd4-af8ec76acbfc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "A_NOM" "0.5"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "436f6da4-f58e-4d3e-a12d-0a7d295231a1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "A_MIN" "0.5"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f726a6e7-1fed-4b23-a83b-8be75fd5bade")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "STANDARD" "IPC 7351B"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3be0fccd-2d74-4023-b2c4-341a87a9899d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PARTREV" "D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1b24dcaa-3796-411c-8558-7c9e46124504")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DNOM" "0.4"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b6df7396-2f3c-4e63-8f8a-9ba5421d7a34")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SnapEDA_Link" "https://www.snapeda.com/parts/TPS62840YBGR/Texas+Instruments/view-part/?ref=snap"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7b2672c6-3596-48be-a8c8-a02d090f04fe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DMIN" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "933ba8a0-51fd-40f2-b916-9fff2bfca229")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "E_NOM" "0.968"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8fe9c150-9465-419a-9635-6ef1adc9bb15")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "BALL_ROWS" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d9b9caf7-c279-4040-85d6-149da5179fb6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DMAX" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "72c5c3e9-4f67-4cb9-9095-0a0148d0cb4e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER" "Texas Instruments"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a7e0e227-e166-46fa-bb24-fc14f9181b4a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "IPC" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "186f306b-bd87-4c7f-978a-3ef3e48c9dea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PIN_COLUMNS" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fb82df77-fc28-4fcf-aaa4-bf1a0804b731")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MF" "Texas Instruments"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b6a27de2-2c05-42b4-a7d2-50e25ed1f6d9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "BALL_COLUMNS" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bd31cac9-403b-4989-8674-27464370eb6d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "COLLAPSING_BALL" "False"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "63d644f7-0fc2-4f9a-b8d2-3cee3674b8b9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PIN_COUNT_E" "2.0"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "92269fd1-6af4-439a-83b6-295d2112ef5b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "BODY_DIAMETER" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9612bbce-981e-4c88-87f0-a193483bd40b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "E_MIN" "0.968"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "990f912c-b58f-4583-896e-a535a74dd0c4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "D_MIN" "1.468"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "849bfc20-b4cf-49ed-8993-81dd99765c95")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MP" "TPS62840YBGR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5ae75858-0366-4b33-8080-3f3a7e05bc5f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PINS" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ca87b12f-3715-4bc5-b6a0-d8b73611e740")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Availability" "In Stock"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4ae134bb-efaf-44ec-9bfe-dfd5389749c3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "E_MAX" "0.968"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0cccb74e-1778-4988-8309-289ea5957111")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/ST-Link Conn/")
+	(sheetfile "st-link_conn.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center -0.2 -0.4)
+		(end -0.1125 -0.4)
+		(stroke
+			(width 0.175)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Mask")
+		(uuid "aef9ccbc-91f7-49be-96e6-08f21063ff7e")
+	)
+	(fp_circle
+		(center -0.2 0)
+		(end -0.1125 0)
+		(stroke
+			(width 0.175)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Mask")
+		(uuid "039cbc3c-f218-436e-b18a-8d6a39598240")
+	)
+	(fp_circle
+		(center -0.2 0.4)
+		(end -0.1125 0.4)
+		(stroke
+			(width 0.175)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Mask")
+		(uuid "9149451c-0404-4217-834b-35fa9f7b934e")
+	)
+	(fp_circle
+		(center 0.2 -0.4)
+		(end 0.2875 -0.4)
+		(stroke
+			(width 0.175)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Mask")
+		(uuid "6ddcfd01-8cd2-4a43-80f7-f02a2d85f92c")
+	)
+	(fp_circle
+		(center 0.2 0)
+		(end 0.2875 0)
+		(stroke
+			(width 0.175)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Mask")
+		(uuid "fe96795e-82ce-4599-9e65-eb6177e91aa7")
+	)
+	(fp_circle
+		(center 0.2 0.4)
+		(end 0.2875 0.4)
+		(stroke
+			(width 0.175)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Mask")
+		(uuid "63bc9188-356e-4460-8396-c502fcdacbd1")
+	)
+	(fp_line
+		(start -0.645 -0.845)
+		(end -0.645 -0.4225)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4c8c088b-df9b-4cf6-a0a2-637a5280b6f7")
+	)
+	(fp_line
+		(start -0.645 -0.845)
+		(end -0.3225 -0.845)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c92fca2a-7f7d-4341-afd6-8a24153d5e57")
+	)
+	(fp_line
+		(start -0.645 0.845)
+		(end -0.645 0.4225)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "57877a94-e86e-495a-b4b0-026a86cc1a23")
+	)
+	(fp_line
+		(start -0.645 0.845)
+		(end -0.3225 0.845)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f253c2dd-67a1-4a95-aa9e-8b8ce9d5b41d")
+	)
+	(fp_line
+		(start 0.645 -0.845)
+		(end 0.3225 -0.845)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "07d91e4c-0ea9-459d-9b24-e2a72645b5b3")
+	)
+	(fp_line
+		(start 0.645 -0.845)
+		(end 0.645 -0.4225)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b1f0665c-bc63-43e6-bbda-767fc0f0cefd")
+	)
+	(fp_line
+		(start 0.645 0.845)
+		(end 0.3225 0.845)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7cf926ca-058d-44de-a128-f58f522c79c9")
+	)
+	(fp_line
+		(start 0.645 0.845)
+		(end 0.645 0.4225)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7e3d83d5-6bcc-4703-a7a1-e7e602c26ea5")
+	)
+	(fp_circle
+		(center -0.984 -0.4)
+		(end -0.884 -0.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "2122661a-e6ab-4f1b-8bcc-34135bbc207a")
+	)
+	(fp_line
+		(start -1.484 -1.734)
+		(end 1.484 -1.734)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "62c69e45-b9bd-4d5b-aa10-a1032c4d68ad")
+	)
+	(fp_line
+		(start -1.484 1.734)
+		(end -1.484 -1.734)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "78670f49-122e-4cd1-9809-51368b664d85")
+	)
+	(fp_line
+		(start -1.484 1.734)
+		(end 1.484 1.734)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0c78291f-d757-49c7-892f-65bc7d4d1918")
+	)
+	(fp_line
+		(start 1.484 1.734)
+		(end 1.484 -1.734)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "72ce6a6f-2a65-4c62-8af8-e091819ce672")
+	)
+	(fp_line
+		(start -0.484 0.734)
+		(end -0.484 -0.734)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "87a19579-75ab-43e8-9e7a-7de58cf2dadd")
+	)
+	(fp_line
+		(start 0.484 -0.734)
+		(end -0.484 -0.734)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "58ce0bbb-913e-48e5-828f-fb0da44c54ff")
+	)
+	(fp_line
+		(start 0.484 0.734)
+		(end -0.484 0.734)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c8a3b301-f9fc-4fcd-843c-7a8a15da19ae")
+	)
+	(fp_line
+		(start 0.484 0.734)
+		(end 0.484 -0.734)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9ef839b8-1c8d-47f3-b8ba-4f1f3bbe397a")
+	)
+	(fp_circle
+		(center -0.984 -0.4)
+		(end -0.884 -0.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "d25eec49-c1ee-492b-aefd-d5b8263ecc4e")
+	)
+	(pad "A1" smd circle
+		(at -0.2 -0.4)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Paste")
+		(uuid "ece9d685-1ca1-4899-b7f8-e3870cd17c8d")
+	)
+	(pad "A2" smd circle
+		(at 0.2 -0.4)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Paste")
+		(uuid "8ddd2fb8-fdf7-4498-b1ba-a3fba62705da")
+	)
+	(pad "B1" smd circle
+		(at -0.2 0)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Paste")
+		(uuid "fefc84ab-a93c-40fc-92f1-35da9a9e4e22")
+	)
+	(pad "B2" smd circle
+		(at 0.2 0)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Paste")
+		(uuid "c87d5b05-bad4-4940-955b-7684e1a3afd5")
+	)
+	(pad "C1" smd circle
+		(at -0.2 0.4)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Paste")
+		(uuid "10461a07-391e-46bf-8ed1-ed494ab31810")
+	)
+	(pad "C2" smd circle
+		(at 0.2 0.4)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Paste")
+		(uuid "0736bf87-6a36-470a-b2e3-2596eea6109b")
+	)
+	(embedded_fonts no)
+	(model "/Users/andrewogundimu/Documents/KiCad Symbols/TPS62840YBGR/TPS62840YBGR.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

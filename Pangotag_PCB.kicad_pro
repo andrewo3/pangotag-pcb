@@ -60,8 +60,8 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
-          "min_island_area": 10.0,
+          "min_clearance": 0.1,
+          "min_island_area": 0.0021483828,
           "min_thickness": 0.25,
           "pad_connection": 1,
           "remove_islands": 0,
@@ -76,64 +76,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "npth_inside_courtyard|96537500|52512500|0ef00a9c-a7b8-4d89-a357-408ba45592c3|12d12669-4694-4c73-a3ba-1e7ac6ed852d",
-          ""
-        ],
-        [
-          "npth_inside_courtyard|96537500|52512500|0ef00a9c-a7b8-4d89-a357-408ba45592c3|49078566-95b4-43d2-bb1d-ce16be5daac6",
-          ""
-        ],
-        [
-          "pth_inside_courtyard|97067500|53762500|e9401811-f623-4604-aa33-a8277a86480f|12d12669-4694-4c73-a3ba-1e7ac6ed852d",
-          ""
-        ],
-        [
-          "pth_inside_courtyard|97427500|59712500|c4ba59b3-6022-4ec5-9b14-a9168c51d1ed|12d12669-4694-4c73-a3ba-1e7ac6ed852d",
-          ""
-        ],
-        [
-          "shorting_items|93457500|51645100|99b439f1-8f9f-4615-9a60-acf363830b9e|a106bbaa-c215-4040-9dea-6c37e5ec4b2f",
-          ""
-        ],
-        [
-          "shorting_items|93457500|52432500|14442256-845b-4bbe-879f-394f69826c4d|daad77bd-ded1-4fa8-b440-cd00e78dfe0c",
-          ""
-        ],
-        [
-          "shorting_items|93697500|52056761|0181429f-4c1e-44d2-8474-3af190f46921|ed3b6393-193a-4879-9870-f9b763afa688",
-          ""
-        ],
-        [
-          "shorting_items|93937500|51645100|02cec44f-64ed-4a85-ba2e-e09a1510efd2|3fdadfa3-2efa-4f83-871c-e429d4156a19",
-          ""
-        ],
-        [
-          "shorting_items|93937500|52432500|0fea4347-d334-4b38-806a-28c874241108|4529a4f7-30f6-4fcd-9e0f-37d377c40c6f",
-          ""
-        ],
-        [
-          "solder_mask_bridge|93457500|51645100|a106bbaa-c215-4040-9dea-6c37e5ec4b2f|99b439f1-8f9f-4615-9a60-acf363830b9e",
-          ""
-        ],
-        [
-          "solder_mask_bridge|93457500|52432500|14442256-845b-4bbe-879f-394f69826c4d|daad77bd-ded1-4fa8-b440-cd00e78dfe0c",
-          ""
-        ],
-        [
-          "solder_mask_bridge|93697500|52056761|0181429f-4c1e-44d2-8474-3af190f46921|ed3b6393-193a-4879-9870-f9b763afa688",
-          ""
-        ],
-        [
-          "solder_mask_bridge|93937500|51645100|02cec44f-64ed-4a85-ba2e-e09a1510efd2|3fdadfa3-2efa-4f83-871c-e429d4156a19",
-          ""
-        ],
-        [
-          "solder_mask_bridge|93937500|52432500|0fea4347-d334-4b38-806a-28c874241108|4529a4f7-30f6-4fcd-9e0f-37d377c40c6f",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -267,7 +210,9 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.13,
+        0.3
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -299,6 +244,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.45,
+          "drill": 0.25
         }
       ],
       "zones_allow_external_fillets": false
@@ -566,9 +515,9 @@
       {
         "bus_width": 12,
         "clearance": 0.1,
-        "diff_pair_gap": 0.01,
+        "diff_pair_gap": 0.12,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.01,
+        "diff_pair_width": 0.12,
         "line_style": 0,
         "microvia_diameter": 0.01,
         "microvia_drill": 0.01,
@@ -576,7 +525,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.1,
+        "track_width": 0.13,
         "tuning_profile": "",
         "via_diameter": 0.25,
         "via_drill": 0.15,
@@ -1015,6 +964,18 @@
           "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part",
+          "name": "LCSC Part",
           "show": false
         }
       ],
